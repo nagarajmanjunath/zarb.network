@@ -7,9 +7,23 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "cname": "echo zarb.network>>docs/.vuepress/dist/CNAME"
+    "cname": "echo zarb.network>>docs/.vuepress/dist/CNAME",
+    "serve": "vue-cli-service serve",
+    "build:cli": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "license": "MIT",
+  "dependencies": {
+    "bootstrap-vue": "^2.0.4",
+    "flatpickr": "^4.5.1",
+    "nouislider": "^11.1.0",
+    "register-service-worker": "^1.5.2",
+    "vue": "^2.6.6",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-lazyload": "^1.2.6",
+    "vue-router": "^3.0.2",
+    "vue2-transitions": "^0.2.3"
+  },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.8.0",
     "@vuepress/plugin-back-to-top": "^1.8.0",
@@ -23,6 +37,13 @@
     "vuepress-plugin-element-tabs": "^0.2.8",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smooth-scroll": "0.0.10",
-    "vuepress-plugin-zooming": "^1.1.8"
+    "vuepress-plugin-zooming": "^1.1.8",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.6"
   }
 }
