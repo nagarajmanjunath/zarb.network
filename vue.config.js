@@ -1,6 +1,13 @@
 const webpack = require('webpack');
 
 module.exports = {
+  devServer: {
+    before: app => {
+      app.get('/docs', (req, res) => {
+        res.redirect('http://localhost:3000/docs')
+      })
+    }
+  },
   configureWebpack: {
     // Set up all the aliases we use in our app.
     plugins: [

@@ -34,6 +34,13 @@
                         <span class="text-white">Contribute</span>
                     </a>
                 </li>
+
+                  <li class="nav-item d-none d-lg-block ml-lg-4">
+                    <a href="/docs" target="_blank" rel="noopener">
+                        <span class="text-white">Docs</span>
+                    </a>
+                </li>
+
             </ul>
         </base-nav>
     </header>

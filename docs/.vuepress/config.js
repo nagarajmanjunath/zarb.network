@@ -37,6 +37,7 @@ module.exports = {
     editLinks: true,
     editLinkText: "Help us improve this page!",
     sidebarDepth: 0,
+    title: 'ZarbNetwork',
     nav: [
       {
         text: "What is Zarb",
@@ -45,6 +46,10 @@ module.exports = {
       {
         text: "Get started",
         link: "/guide/run-index",
+      },
+      {
+        text: 'ZarbNetwork',
+        link: 'http://localhost:8080'
       },
       {
         text: "Github",

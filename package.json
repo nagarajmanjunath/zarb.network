@@ -5,12 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/zarbchain/zarb.network",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
     "cname": "echo zarb.network>>docs/.vuepress/dist/CNAME",
     "serve": "vue-cli-service serve",
     "build:cli": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
   },
   "license": "MIT",
   "dependencies": {
@@ -22,28 +22,29 @@
     "vue-flatpickr-component": "^8.1.1",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.2",
-    "vue2-transitions": "^0.2.3"
+    "vue2-transitions": "^0.2.3",
+    "vuepress-plugin-container": "^2.1.5"
   },
   "devDependencies": {
+    "@iktakahiro/markdown-it-katex": "^4.0.1",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
     "@vuepress/plugin-active-header-links": "^1.8.0",
     "@vuepress/plugin-back-to-top": "^1.8.0",
     "@vuepress/plugin-medium-zoom": "^1.8.0",
     "@vuepress/plugin-pwa": "^1.8.2",
     "markdown-it-footnote": "^3.0.2",
-    "@iktakahiro/markdown-it-katex": "^4.0.1",
+    "node-sass": "^4.11.0",
     "prettier": "2.2.1",
-    "vuepress": "^1.8.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.6",
+    "vuepress": "^2.0.0-beta.16",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-element-tabs": "^0.2.8",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smooth-scroll": "0.0.10",
-    "vuepress-plugin-zooming": "^1.1.8",
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-plugin-pwa": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.6"
+    "vuepress-plugin-zooming": "^1.1.8"
   }
 }
