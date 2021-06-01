@@ -24,6 +24,7 @@ module.exports = {
   ],
 
   base: '/docs/',
+  port: 3000,
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
