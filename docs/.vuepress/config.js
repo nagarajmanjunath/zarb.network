@@ -23,6 +23,8 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
 
+  base: '/docs/',
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
