@@ -23,6 +23,9 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
 
+  base: '/docs/',
+  port: 3000,
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -37,6 +40,7 @@ module.exports = {
     editLinks: true,
     editLinkText: "Help us improve this page!",
     sidebarDepth: 0,
+    title: 'ZarbNetwork',
     nav: [
       {
         text: "What is Zarb",
@@ -45,6 +49,10 @@ module.exports = {
       {
         text: "Get started",
         link: "/guide/run-index",
+      },
+      {
+        text: 'ZarbNetwork',
+        link: 'http://localhost:8080'
       },
       {
         text: "Github",
