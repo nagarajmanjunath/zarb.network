@@ -46,11 +46,6 @@
                                     <h6 class="text-primary text-uppercase">Run Zarb Blockchain</h6>
                                     <p class="description mt-3">Zarb blockchain able to run locally or using docker.
                                         Even able to connect testnet using few commands</p>
-                                    <div>
-                                        <badge type="primary" rounded>design</badge>
-                                        <badge type="primary" rounded>system</badge>
-                                        <badge type="primary" rounded>creative</badge>
-                                    </div>
                                     <base-button tag="a" href="https://zarb.network/guide/run-index.html" type="primary" class="mt-4">
                                         RUN ZARB
                                     </base-button>
@@ -62,11 +57,6 @@
                                     </icon>
                                     <h6 class="text-success text-uppercase">Learn Zarb Blockchain</h6>
                                     <p class="description mt-3">Zarb  give you an overview  of zarb blockchain from consnesus mechaninsum to running a node as validator</p>
-                                    <div>
-                                        <badge type="success" rounded>business</badge>
-                                        <badge type="success" rounded>vision</badge>
-                                        <badge type="success" rounded>success</badge>
-                                    </div>
                                     <base-button tag="a" href="https://zarb.network/guide/learn-index.html" type="success" class="mt-4">
                                         Learn Zarb
                                     </base-button>
@@ -78,11 +68,6 @@
                                     </icon>
                                     <h6 class="text-warning text-uppercase">Zarb Contribute Blockchain</h6>
                                     <p class="description mt-3">Zarb focus mainly on contributors. Its a open source project if you feel like to contribute just follow below link</p>
-                                    <div>
-                                        <badge type="warning" rounded>marketing</badge>
-                                        <badge type="warning" rounded>product</badge>
-                                        <badge type="warning" rounded>launch</badge>
-                                    </div>
                                     <base-button tag="a" href="https://github.com/zarbchain/" type="warning" class="mt-4">
                                         Contribute Zarb
                                     </base-button>
