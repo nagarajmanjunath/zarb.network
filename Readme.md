@@ -8,16 +8,34 @@ This repository contains all the information about zarb blockchain. You might ch
 Please feel free to open a pull request if you notice typos or grammatical errors. Any contributions
 on this wiki are welcomed.
 
-## Running Locally
+## Running Locally vue.js docs 
 
 You can clone this repository and running it locally by using these commands:
 
 ```zsh
+
 git clone https://github.com/zarbchain/zarb.network.git
 cd zarb.network
 yarn install
+yar docs:build
 yarn dev
+
 ```
+
+## Running Locally vue.js app 
+
+You can clone this repository and running it locally by using these commands:
+
+```zsh
+
+git clone https://github.com/zarbchain/zarb.network.git
+cd zarb.network
+yarn install
+yarn serve
+
+```
+
+
 
 ## Style Guide
 
