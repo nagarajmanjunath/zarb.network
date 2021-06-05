@@ -42,6 +42,11 @@ module.exports = {
     sidebarDepth: 0,
     title: 'ZarbNetwork',
     nav: [
+
+      {
+        text: 'Home',
+        link: 'http://localhost:8080'
+      },
       {
         text: "What is Zarb",
         link: "/guide/learn-index",
@@ -50,10 +55,7 @@ module.exports = {
         text: "Get started",
         link: "/guide/run-index",
       },
-      {
-        text: 'ZarbNetwork',
-        link: 'http://localhost:8080'
-      },
+
       {
         text: "Github",
         link: "https://github.com/zarbchain/",

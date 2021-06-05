@@ -22,7 +22,7 @@ yarn dev
 
 ```
 
-## Running Locally vue.js app 
+## Running Locally Website
 
 You can clone this repository and running it locally by using these commands:
 
